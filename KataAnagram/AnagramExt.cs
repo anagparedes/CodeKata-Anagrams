@@ -3,7 +3,7 @@
 
 namespace KataAnagram
 {
-    public static class StringBuilder
+    public static class AnagramExt
     {
         public static string CalculateAnagramKey(this string str)
         {

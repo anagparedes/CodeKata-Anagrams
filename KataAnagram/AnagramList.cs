@@ -59,7 +59,7 @@ namespace KataAnagram
 
         private static void RemoveLast(System.Text.StringBuilder stringBuilder, int length)
         {
-            stringBuilder.Remove( length - stringBuilder.Length , length);
+            stringBuilder.Remove(stringBuilder.Length - length, length);
         }
 
         private static void AppendAnagram(System.Text.StringBuilder stringBuilder, string word)

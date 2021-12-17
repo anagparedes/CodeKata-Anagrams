@@ -14,7 +14,7 @@ namespace KataAnagram
             const string FILE = "wordlist.txt";
             const string SORTED_WORDS = "WordsSorted.txt";
             const string STANDARD_TEXT_ENCODING = "iso-8859-1";
-            const string ERROR_MESSAGE = "The file could not be read:";
+            const string ERROR_MESSAGE = "The file could not be read.";
 
             AnagramList container = new AnagramList();
             var stopWatch = Stopwatch.StartNew();
